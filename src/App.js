@@ -8,6 +8,7 @@ import { createStore } from "redux";
 
 import { store } from "./store";
 import ButtonGroup from './ButtonGroup';
+import Button2 from './Button2';
 
 class App extends Component {
 
@@ -19,9 +20,9 @@ class App extends Component {
     // return <HelloWorld tech={this.state.tech} /> 
     return ( 
       <div>
-      
-      <HelloWorld key={1} tech={store.getState().tech} />
-      <ButtonGroup key={2} technologies={["React", "Elm", "React-redux"]} />
+        <HelloWorld key={1} tech={store.getState().tech} />
+        <ButtonGroup key={2} technologies={["React", "Angular", "Vue"]} />
+        <Button2 key={3} />
       </div>
     );
   }
