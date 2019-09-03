@@ -4,7 +4,7 @@ const HelloWorld = ({ tech }) => {
 
     return (
         <div className="hello-world">
-            Hello to <span class="hello-world__">{tech}</span>
+            Hello to <span className="hello-world__">{tech}</span>
         </div>
     );
 
